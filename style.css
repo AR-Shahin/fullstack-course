@@ -1,0 +1,28 @@
+/*
+    This is a comment
+    -------------
+*/
+.ourH2{
+    background-color: aqua;
+}
+#ourID{
+    background-color: blue;
+}
+.ourH2{
+    background-color: rgba(20, 30, 100,.4);
+    color: white;
+}
+
+h2.another_class{
+    background: yellow;
+}
+h3,h4,.desctiption{
+    color: red;
+}
+
+.hero_section{
+    color: white;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?w=2000");
+    /* background-position: top bottom; */
+    background-size: cover;
+}
