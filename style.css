@@ -2,6 +2,9 @@
     This is a comment
     -------------
 */
+*{
+    box-sizing: border-box;
+}
 .ourH2{
     background-color: aqua;
 }
@@ -25,4 +28,99 @@ h3,h4,.desctiption{
     background-image: url("https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg?w=2000");
     /* background-position: top bottom; */
     background-size: cover;
+}
+
+.box1{
+    border: 1px dotted red;
+    /* border-width: 20px; */
+}
+
+.box2{
+    /* margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px; */
+    background: red;
+
+    /* margin: 100px 300px 200px 200px; */
+
+    /* margin: 200px 30px; */
+    width: 30%;
+    margin: 0 auto;
+    height: 100px;
+    overflow-y: scroll;
+    /* padding-top: 20px;
+    padding-right: 90px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    padding: 10px 30px ;
+
+    color: black;
+    text-align: justify;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    line-height: 2;
+    letter-spacing: 2px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: thin;
+
+}
+.btn{
+    background: teal;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    /* border-top-left-radius: 40px; */
+}
+h2 {
+    text-shadow: 2px 2px red;
+  }
+ul li{
+    list-style: none;
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background: green;
+    box-sizing: border-box;
+}
+.box4{
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+}
+
+h3{
+    background: green;
+    display: inline-block;
+}
+
+span{
+    /* display: none; */
+    background: red;
+}
+nav{
+    background: teal;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+nav ul li{
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 5px;
+}
+ul{
+    width: 30%;
+    margin: 0 auto;
 }
