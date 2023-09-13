@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #D3E5FD;
+}
+.box{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #fff;
+    padding: 30px;
+}
+.box h2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.form-control{
+    background: #E8E9FD;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin:5px;
+
+}
+.form-group{
+    display: flex;
+}
+.form-control::placeholder{
+    color: blueviolet;
+}
+.address{
+    width: 370px;
+}
+.text-center{
+
+}
+.btn{
+    background: blueviolet;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
