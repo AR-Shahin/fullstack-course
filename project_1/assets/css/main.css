@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.col_10{
+    flex-basis: 9%;
+    padding: 0 5px;
+}
+.col_20 {
+    flex-basis: 19%;
+    padding: 0 5px;
+}
+
+.col_30 {
+    flex-basis: 29%;
+    padding: 0 5px;
+}
+.col_40 {
+    flex-basis: 39%;
+    padding: 0 5px;
+}
+.col_50 {
+    flex-basis: 49%;
+    padding: 0 5px;
+}
+.col_60 {
+    flex-basis: 59%;
+    padding: 0 5px;
+}
+.col_70 {
+    flex-basis: 69%;
+    padding: 0 5px;
+}
+.col_80 {
+    flex-basis: 79%;
+    padding: 0 5px;
+}
+.col_90 {
+    flex-basis: 89%;
+    padding: 0 5px;
+}
+.col_100 {
+    flex-basis: 99%;
+    padding: 0 5px;
+}
+
+
+
+
+/* navbar start */
+
+nav{
+    background: #ccc;
+    padding: 20px 0;
+}
+nav .logo{
+    width: 100px;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: #027BA7;
+    font-weight: medium;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    background: #027BA7;
+    color: #fff;
+}
+nav ul.social_icon li a{
+    margin: 0px;
+    padding: 0;
+}
+nav ul.social_icon li a i{
+    padding: 8px;
+    color: #fff;
+}
+nav ul.social_icon li:nth-child(1){
+    background: #3C5998;
+}
+nav ul.social_icon li:nth-child(2) {
+    background: #3C5998;
+}
+nav ul.social_icon li:nth-child(3) {
+    background: #3C5998;
+}
+nav ul.social_icon li:nth-child(4) {
+    background: #3C5998;
+}
+nav ul.social_icon li:nth-child(5) {
+    background: #3C5998;
+}
+
+/* navbar end */
+
+/* hero_section */
+
+.hero_section{
+    background-image: url("../img/bg.jpg");
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+
+}
+
+.hero_section .box{
+    background: #CACED0;
+    padding: 120px 60px;
+    border-radius: 5px;
+    color: #111;
+}
+.hero_section .box h1{
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hero_section .box p{
+    font-size: 14px;
+}
+.hero_section .box .btn_box{
+    margin-top: 20px;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: #027BA7;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.hero_section .box .btn_box .btn{
+    margin-right: 5px;
+}
