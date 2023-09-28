@@ -17,7 +17,9 @@ ul {
     width: 1140px;
     margin: 0 auto;
 }
-
+.mt-5{
+    margin-top: 20px;
+}
 .row{
     display: flex;
     /* flex-wrap: wrap; */
@@ -31,7 +33,10 @@ ul {
     flex-basis: 19%;
     padding: 0 5px;
 }
-
+.col_25{
+    flex-basis: 24%;
+    padding: 0 5px;
+}
 .col_30 {
     flex-basis: 29%;
     padding: 0 5px;
@@ -64,7 +69,9 @@ ul {
     flex-basis: 99%;
     padding: 0 5px;
 }
-
+.text-center{
+    text-align: center;
+}
 
 
 
@@ -119,7 +126,12 @@ nav ul.social_icon li:nth-child(4) {
 nav ul.social_icon li:nth-child(5) {
     background: #3C5998;
 }
-
+.sticky_navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 /* navbar end */
 
 /* hero_section */
@@ -163,4 +175,64 @@ nav ul.social_icon li:nth-child(5) {
 }
 .hero_section .box .btn_box .btn{
     margin-right: 5px;
+}
+
+.service_section{
+    padding: 30px 0;
+    position: relative;
+}
+
+.service_section .box{
+    text-align: center;
+}
+
+.service_section .box i{
+    display: inline-block;
+    background: #027BA7;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+.service_section .box h3{
+    margin: 10px 0;
+}
+.service_section .box p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.service_section .box .btn{
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.sticky{
+    background: #000;
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+}
+.fourth_section{
+    padding: 30px 0;
+}
+.fourth_section .col_50{
+    background: #027ba776;
+    padding: 30px;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+.fourth_section ul{
+    margin: 10px 0;
+}
+.fourth_section ul li{
+    margin: 5px 0;
+}
+.fourth_section .btn{
+    border-radius: 2px;
+    transition: .7s;
+}
+.fourth_section .btn:hover{
+    background: transparent;
+    color: #027BA7;
+    border: 2px solid;
 }
