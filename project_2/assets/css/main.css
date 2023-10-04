@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.mt-5{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.col_10{
+    flex-basis: 9%;
+    padding: 0 5px;
+}
+.col_20 {
+    flex-basis: 19%;
+    padding: 0 5px;
+}
+.col_25{
+    flex-basis: 24%;
+    padding: 0 5px;
+}
+.col_30 {
+    flex-basis: 29%;
+    padding: 0 5px;
+}
+.col_40 {
+    flex-basis: 39%;
+    padding: 0 5px;
+}
+.col_50 {
+    flex-basis: 49%;
+    padding: 0 5px;
+}
+.col_60 {
+    flex-basis: 59%;
+    padding: 0 5px;
+}
+.col_70 {
+    flex-basis: 69%;
+    padding: 0 5px;
+}
+.col_80 {
+    flex-basis: 79%;
+    padding: 0 5px;
+}
+.col_90 {
+    flex-basis: 89%;
+    padding: 0 5px;
+}
+.col_100 {
+    flex-basis: 99%;
+    padding: 0 5px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.flex_end{
+    justify-content: end;
+}
+
+
+
+header{
+    background: #8E44AD;
+}
+nav{
+    padding: 10px 0;
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    margin:  0 5px;
+}
+nav ul li a{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: .6s;
+}
+nav ul li a:hover{
+    background: red;
+}
+.btn{
+    display: inline-block;
+    background: #E67E23;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+.hero_content{
+    text-align: center;
+    padding: 220px 0;
+    color: #fff;
+}
+.hero_content .btn{
+    margin-top: 20px;
+}
+.service_section{
+    padding: 30px 0;
+    background: #19BC9B;
+    color: #fff;
+}
+.content_box{
+    text-align: center;
+}
+.box{
+    text-align: center;
+}
+.box img{
+    width: 100px;
+}
+.box h4{
+    margin: 10px 0;
+}
+.box p{
+    line-height: 2;
+}
