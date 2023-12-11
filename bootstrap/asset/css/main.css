@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+.top_bar{
+    background: #EFF2F4;
+    text-align: right;
+}
+
+.top_bar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+}
+.top_bar ul li a{
+    color: #111;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+.social_icon{
+    background: #3C5998;
+
+    padding: 8px;
+    color: #fff;
+}
+.social_icon i{
+    color: #fff!important;
+}
+
+.hero_section{
+    background-image: url("https://ar-shahin.github.io/Business-B4-projects/resources/images/hero.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px 0 250px 0;
+}
+
+.hero_content{
+ 
+}
